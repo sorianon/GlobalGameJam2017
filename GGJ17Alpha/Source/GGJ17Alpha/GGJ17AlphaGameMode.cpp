@@ -2,11 +2,18 @@
 
 #include "GGJ17Alpha.h"
 #include "GGJ17AlphaGameMode.h"
+<<<<<<< HEAD
 #include "GGJPlayer.h"
+=======
+>>>>>>> master
 #include "GGJ17AlphaPawn.h"
 
 AGGJ17AlphaGameMode::AGGJ17AlphaGameMode()
 {
 	// set default pawn class to our flying pawn
+<<<<<<< HEAD
 	DefaultPawnClass = AGGJPlayer::StaticClass();
+=======
+	DefaultPawnClass = AGGJ17AlphaPawn::StaticClass();
+>>>>>>> master
 }
